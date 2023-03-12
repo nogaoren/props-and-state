@@ -1,0 +1,56 @@
+.Album {
+	max-width: 300px;
+    width: auto;
+    margin: auto;
+}
+
+.Album h3{
+    /* font-weight: 900; */
+    font-size: 1.5vw;
+}
+
+.Album p {
+    font-size: 1.1vw;
+}
+
+.Album .Inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.Album span{
+    margin: 3%;
+    padding: 3%;
+    font-weight: bolder;
+    font-size: 2vw;
+}
+
+.Album img{
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+
+.Album .excellent{
+    color: violet;
+}
+
+.Album .good{ 
+    color: indigo;
+}
+
+.Album .mediocre{
+    color: blue;
+}
+
+.Album .bad{
+    color: green;
+}
+
+.Album .shit{
+    color: lightgreen;
+}

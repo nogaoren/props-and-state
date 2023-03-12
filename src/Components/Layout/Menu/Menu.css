@@ -1,0 +1,24 @@
+.Menu {
+	overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.Menu *{
+  margin: 2%;
+}
+
+.Menu a{
+  text-decoration: none;
+  color: var(--PRIMARY-COLOR);
+}
+
+.Menu a:hover{
+  /* color: var(--PRIMARY-COLOR); */
+  background-color: var(--PRIMARY-COLOR);
+  color: var(--BACKGROUND-COLOR)
+}
+
+.Menu {
+  font-size: 6vw;
+}

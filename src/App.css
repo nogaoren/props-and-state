@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  background-color: var(--BACKGROUND-COLOR);
+  color: var(--PRIMARY-COLOR);
+  box-sizing: border-box;
+}
+
+.App > .Header{
+  grid-column: 12 span;
+  grid-row: 1 span;
+}
+
+.App > .Menu{
+  grid-column: 2 span;
+  grid-row: 10 span;
+}
+
+.App > .Main{
+  grid-column: 10 span;
+  grid-row: 10 span;
+}
+
+.App > .Footer{
+  grid-column: 12 span;
+  grid-row: 1 span;
+}

@@ -1,0 +1,13 @@
+.Artist {
+    
+}
+
+.Artist h2{
+    font-size: 1.5vw;
+    text-decoration: none;
+}
+
+.Artist img{
+    height: auto;
+    width: 90%;
+}
